@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roesch &amp; Klein Immobilien — Häuser &amp; Wohnungen</title>
+<meta name="description" content="95 aktuelle Immobilienangebote — Häuser, Wohnungen und Anlageobjekte. Roesch &amp; Klein Immobilien.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230f2e4b'/%3E%3Ctext x='50' y='65' font-size='60' font-family='Georgia,serif' text-anchor='middle' fill='%23fff'%3ER%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">R&amp;K</span>
+      <span class="brand-name">Roesch & Klein Immobilien</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Immobilien</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="hero">
+  <div class="container">
+    <h1>Ihr Zuhause. Persönlich vermittelt.</h1>
+    <p class="lead">95 aktuelle Immobilienangebote — Häuser, Wohnungen und Anlageobjekte. Persönlich betreut, transparent vermittelt.</p>
+  </div>
+</section>
+
+<section class="filter-section">
+  <div class="container">
+    <form class="filter-bar" id="filter-form" onsubmit="return false;">
+      <div class="filter-group">
+        <label>Angebot</label>
+        <div class="seg">
+          <button type="button" class="seg-btn is-active" data-filter="mode" data-value="all">Alle</button>
+          <button type="button" class="seg-btn" data-filter="mode" data-value="kauf">Kauf</button>
+          <button type="button" class="seg-btn" data-filter="mode" data-value="miete">Miete</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label for="f-city">Stadt</label>
+        <select id="f-city"><option value="">Alle Städte</option><option value="bergkamen">Bergkamen</option>
+<option value="bochum">Bochum</option>
+<option value="bochum / gerthe">Bochum / Gerthe</option>
+<option value="bönen">Bönen</option>
+<option value="castrop-rauxel">Castrop-Rauxel</option>
+<option value="dortmund">Dortmund</option>
+<option value="dortmund / berghofen">Dortmund / Berghofen</option>
+<option value="dortmund / hörde">Dortmund / Hörde</option>
+<option value="dortmund / jungferntal">Dortmund / Jungferntal</option>
+<option value="dortmund / lütgendortmund">Dortmund / Lütgendortmund</option>
+<option value="dortmund / scharnhorst">Dortmund / Scharnhorst</option>
+<option value="dortmund / westerfilde">Dortmund / Westerfilde</option>
+<option value="duisburg">Duisburg</option>
+<option value="essen">Essen</option>
+<option value="essen / altenessen-süd">Essen / Altenessen-Süd</option>
+<option value="essen / dellwig">Essen / Dellwig</option>
+<option value="essen / gerschede">Essen / Gerschede</option>
+<option value="fröndenberg">Fröndenberg</option>
+<option value="hagen">Hagen</option>
+<option value="hagen / altenhagen">Hagen / Altenhagen</option>
+<option value="hamm">Hamm</option>
+<option value="hattingen">Hattingen</option>
+<option value="lünen / gahmen">Lünen / Gahmen</option>
+<option value="marl">Marl</option>
+<option value="mülheim an der ruhr / broich">Mülheim an der Ruhr / Broich</option>
+<option value="münster">Münster</option>
+<option value="oberhausen">Oberhausen</option>
+<option value="oberhausen / sterkrade-mitte">Oberhausen / Sterkrade-Mitte</option>
+<option value="remscheid">Remscheid</option>
+<option value="selm">Selm</option>
+<option value="unna">Unna</option>
+<option value="wetter">Wetter</option>
+<option value="wetter (ruhr)">Wetter (Ruhr)</option>
+<option value="wuppertal">Wuppertal</option>
+<option value="wuppertal / barmen">Wuppertal / Barmen</option>
+<option value="wuppertal / ostersbaum">Wuppertal / Ostersbaum</option>
+<option value="wuppertal / ronsdorf">Wuppertal / Ronsdorf</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-type">Typ</label>
+        <select id="f-type"><option value="">Alle Typen</option><option value="doppelhaushälfte">Doppelhaushälfte</option>
+<option value="eigentumswohnung">Eigentumswohnung</option>
+<option value="einfamilienhaus">Einfamilienhaus</option>
+<option value="erdgeschosswohnung">Erdgeschosswohnung</option>
+<option value="etagenwohnung">Etagenwohnung</option>
+<option value="mehrfamilienhaus">Mehrfamilienhaus</option>
+<option value="penthouse">Penthouse</option>
+<option value="reiheneckhaus">Reiheneckhaus</option>
+<option value="reihenendhaus">Reihenendhaus</option>
+<option value="reihenmittelhaus">Reihenmittelhaus</option>
+<option value="zweifamilienhaus">Zweifamilienhaus</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-pmin">Preis von</label>
+        <input type="number" id="f-pmin" placeholder="0" min="0" step="10000">
+      </div>
+      <div class="filter-group">
+        <label for="f-pmax">bis</label>
+        <input type="number" id="f-pmax" placeholder="∞" min="0" step="10000">
+      </div>
+      <button type="button" class="btn-reset" id="f-reset">Zurücksetzen</button>
+    </form>
+    <div class="result-count"><span id="result-count">95</span> von 95 Immobilien</div>
+  </div>
+</section>
+
+<section class="listings">
+  <div class="container">
+    <div class="grid" id="listing-grid">
+      
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20260402/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="89500">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20260402/images/01.jpg" alt="1,5-Zimmer-Apartment in Wuppertal-Ronsdorf! Mit Fahrstuhl und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">89.500 EUR</div>
+    <div class="card-specs"><span>1,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20260307/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="170000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20260307/images/01.jpg" alt="Gepflegte 3,5 Zimmerwohnung in Bochum-Querenburg! Mit Fahrstuhl und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">170.000 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20260306/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="85000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20260306/images/01.jpg" alt="Vermietete Zwei-Zimmerwohnung in Lütgendortmund!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">85.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-muenster-kaufen-20260305/index.html"
+   data-mode="kauf"
+   data-city="münster"
+   data-type="eigentumswohnung"
+   data-price="175000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-muenster-kaufen-20260305/images/01.jpg" alt="Renoviertes Apartment in Münster-Hiltrup! Mit Einbauküche, Balkon und Garage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Münster</div>
+    <div class="card-price">175.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reiheneckhaus-in-boenen-kaufen-20260303/index.html"
+   data-mode="kauf"
+   data-city="bönen"
+   data-type="reiheneckhaus"
+   data-price="330000">
+  <div class="card-photo"><img src="listings/haus-reiheneckhaus-in-boenen-kaufen-20260303/images/01.jpg" alt="Teil-Modernisiertes Reihenendhaus in Bönen! Mit Einbauküche, Garage, Kamin und Garten!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reiheneckhaus in Bönen</div>
+    <div class="card-price">330.000 EUR</div>
+    <div class="card-specs"><span>4,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20260302we18/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="320000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20260302we18/images/01.jpg" alt="Vermietete 3-Zimmerwohnung im Magazingebäude am Phoenix-See Dortmund! Mit Stellplatz und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">320.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20260301we43/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="390000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20260301we43/images/01.jpg" alt="Vermietete 3-Zimmerwohnung im Magazingebäude am Phoenix-See Dortmund! Mit Küche, Stellplatz &amp; Balkon" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">390.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-remscheid-kaufen-20260201/index.html"
+   data-mode="kauf"
+   data-city="remscheid"
+   data-type="eigentumswohnung"
+   data-price="230000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-remscheid-kaufen-20260201/images/01.jpg" alt="Gepflegte 4-Zimmerwohnung in Remscheid-Süd! Mit Einbauküche, Balkon und Stellplatz!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Remscheid</div>
+    <div class="card-price">230.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-marl-kaufen-20260102/index.html"
+   data-mode="kauf"
+   data-city="marl"
+   data-type="reihenmittelhaus"
+   data-price="265000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-marl-kaufen-20260102/images/01.jpg" alt="Modernisiertes Reihenmittelhaus in Marl-Brassert! Mit Einbauküche, Garage, Garten und Klimaanlage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Marl</div>
+    <div class="card-price">265.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20251201/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="145000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20251201/images/01.jpg" alt="Gepflegte Drei-Zimmer-Wohnung in Bochum-Wattenscheid! Mit Einbauküche, Balkon und Garage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">145.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-mehrfamilienhaus-in-bochum-kaufen-20251004/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="mehrfamilienhaus"
+   data-price="599000">
+  <div class="card-photo"><img src="listings/haus-mehrfamilienhaus-in-bochum-kaufen-20251004/images/01.jpg" alt="Gepflegtes Mehrfamilienhaus mit 5 Parteien in Bochum-Linden!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Mehrfamilienhaus in Bochum</div>
+    <div class="card-price">599.000 EUR</div>
+    <div class="card-specs"></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20251003/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="160000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20251003/images/01.jpg" alt="Gepflegte 2,5-Zimmerwohnung in Bochum-Mitte! Mit Einbauküche!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">160.000 EUR</div>
+    <div class="card-specs"><span>2,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-hattingen-kaufen-20251002/index.html"
+   data-mode="kauf"
+   data-city="hattingen"
+   data-type="eigentumswohnung"
+   data-price="120000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-hattingen-kaufen-20251002/images/01.jpg" alt="Individualisierbare 2-Zimmerwohnung in Hattingen-Mitte!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Hattingen</div>
+    <div class="card-price">120.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-hamm-kaufen-20250905/index.html"
+   data-mode="kauf"
+   data-city="hamm"
+   data-type="reihenmittelhaus"
+   data-price="399000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-hamm-kaufen-20250905/images/01.jpg" alt="Neuwertiges Niedrigstenergie-Reihenmittelhaus in Hamm-Herringen! Mit Einbauküche, Garten und Garage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Hamm</div>
+    <div class="card-price">399.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-muelheim-an-der-ruhr-broich-kaufen-20250904/index.html"
+   data-mode="kauf"
+   data-city="mülheim an der ruhr / broich"
+   data-type="eigentumswohnung"
+   data-price="189000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-muelheim-an-der-ruhr-broich-kaufen-20250904/images/01.jpg" alt="Gepflegte 3-Zimmerwohnung in Mülheim a.d. Ruhr – Broich! Mit Balkon und Tiefgaragenstellplatz!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Mülheim an der Ruhr / Broich</div>
+    <div class="card-price">189.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20250901/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="375000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20250901/images/01.jpg" alt="Exklusive 3-Zimmerwohnung in Wuppertal-Elberfeld! Mit Garten, Küche, Balkon, Stellplatz und Aufzug!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">375.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenendhaus-in-selm-kaufen-202508c3/index.html"
+   data-mode="kauf"
+   data-city="selm"
+   data-type="reihenendhaus"
+   data-price="499000">
+  <div class="card-photo"><img src="listings/haus-reihenendhaus-in-selm-kaufen-202508c3/images/01.jpg" alt="Neubaureihenendhaus in Selm: Bestens für die Zukunft aufgestellt! Gebaut nach KfW Standard 55!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenendhaus in Selm</div>
+    <div class="card-price">499.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-zweifamilienhaus-in-wetter-kaufen-20250804/index.html"
+   data-mode="kauf"
+   data-city="wetter"
+   data-type="zweifamilienhaus"
+   data-price="440000">
+  <div class="card-photo"><img src="listings/haus-zweifamilienhaus-in-wetter-kaufen-20250804/images/01.jpg" alt="Gepflegtes Ein- bis Zweifamilienhaus in Wetter-Volmarstein! Mit Garage und Garten" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Zweifamilienhaus in Wetter</div>
+    <div class="card-price">440.000 EUR</div>
+    <div class="card-specs"><span>8 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bergkamen-kaufen-20250703/index.html"
+   data-mode="kauf"
+   data-city="bergkamen"
+   data-type="eigentumswohnung"
+   data-price="149000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bergkamen-kaufen-20250703/images/01.jpg" alt="Modernisierte 4-Zimmerwohnung mit Balkon, Garage und Fahrstuhl in Bergkamen-Mitte!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bergkamen</div>
+    <div class="card-price">149.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20250702/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="149000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20250702/images/01.jpg" alt="Individualisierbare 3,5-Zimmerwohnung in Dortmund-Hörde! Mit Balkon und Garage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">149.000 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-doppelhaushaelfte-in-bergkamen-kaufen-20250701/index.html"
+   data-mode="kauf"
+   data-city="bergkamen"
+   data-type="doppelhaushälfte"
+   data-price="320000">
+  <div class="card-photo"><img src="listings/haus-doppelhaushaelfte-in-bergkamen-kaufen-20250701/images/01.jpg" alt="Angebotsverfahren: Modernisierte Doppelhaushälfte in Bergkamen! Mit Küche, Garten und PV-Anlage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Doppelhaushälfte in Bergkamen</div>
+    <div class="card-price">320.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-hagen-kaufen-20250601/index.html"
+   data-mode="kauf"
+   data-city="hagen"
+   data-type="eigentumswohnung"
+   data-price="69000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-hagen-kaufen-20250601/images/01.jpg" alt="Vermietete 3-Zimmerwohnung in Hagen-Wehringhausen! Mit Balkon und Aufzug!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Hagen</div>
+    <div class="card-price">69.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-dachgeschosswohnung-in-duisburg-kaufen-20250403/index.html"
+   data-mode="kauf"
+   data-city="duisburg"
+   data-type="eigentumswohnung"
+   data-price="155000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-dachgeschosswohnung-in-duisburg-kaufen-20250403/images/01.jpg" alt="Gepflegte 4-Zimmer-Dachgeschosswohnung in Duisburg-Vierlinden! Mit Einbauküche und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Duisburg</div>
+    <div class="card-price">155.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20250401/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="260000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20250401/images/01.jpg" alt="Am Wiesental: gepflegte 3,5-Zimmerwohnung in Bochum-Weitmar! Mit Einbauküche, Garage und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">260.000 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20250301/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="115000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20250301/images/01.jpg" alt="Vermietete Drei-Zimmerwohnung in Lütgendortmund!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">115.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-froendenberg-kaufen-20250201/index.html"
+   data-mode="kauf"
+   data-city="fröndenberg"
+   data-type="eigentumswohnung"
+   data-price="65000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-froendenberg-kaufen-20250201/images/01.jpg" alt="Renovierungsbedürftige Zwei-Zimmerwohnung mit Balkon in Fröndenberg!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Fröndenberg</div>
+    <div class="card-price">65.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-dortmund-kaufen-20250102/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="reihenmittelhaus"
+   data-price="370000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-dortmund-kaufen-20250102/images/01.jpg" alt="Angebotsverfahren: Gepflegtes Ein- bis Zweifamilien-Reihenmittelhaus in Dortmund-Wambel!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Dortmund</div>
+    <div class="card-price">370.000 EUR</div>
+    <div class="card-specs"><span>6 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-mehrfamilienhaus-in-hagen-kaufen-20250101/index.html"
+   data-mode="kauf"
+   data-city="hagen"
+   data-type="mehrfamilienhaus"
+   data-price="220000">
+  <div class="card-photo"><img src="listings/haus-mehrfamilienhaus-in-hagen-kaufen-20250101/images/01.jpg" alt="Individualisierbares 4-Parteienhaus in Hagen-Eilpe!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Mehrfamilienhaus in Hagen</div>
+    <div class="card-price">220.000 EUR</div>
+    <div class="card-specs"></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-kaufen-202412r8/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="330000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-kaufen-202412r8/images/01.jpg" alt="Repräsentative 3,5-Zimmer-Erdgeschosswohnung in Dortmund-Brünninghausen! Mit Garage &amp; XXL Garten!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">330.000 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-kaufen-202412l7/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="330000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-kaufen-202412l7/images/01.jpg" alt="Repräsentative 4-Zimmer-Erdgeschosswohnung in Dortmund-Brünninghausen! Mit Garage, Küche &amp; Garten!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">330.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-barmen-kaufen-20241201/index.html"
+   data-mode="kauf"
+   data-city="wuppertal / barmen"
+   data-type="eigentumswohnung"
+   data-price="73000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-barmen-kaufen-20241201/images/01.jpg" alt="Vermietete zwei-Zimmerwohnung mit Balkon und Fahrstuhl in Wuppertal-Barmen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal / Barmen</div>
+    <div class="card-price">73.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-oberhausen-kaufen-20241103/index.html"
+   data-mode="kauf"
+   data-city="oberhausen"
+   data-type="eigentumswohnung"
+   data-price="74000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-oberhausen-kaufen-20241103/images/01.jpg" alt="Vermietete 2-Zimmer-Erdgeschosswohnung in Oberhausen-Mitte!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Oberhausen</div>
+    <div class="card-price">74.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-marl-kaufen-20241101/index.html"
+   data-mode="kauf"
+   data-city="marl"
+   data-type="eigentumswohnung"
+   data-price="205000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-marl-kaufen-20241101/images/01.jpg" alt="Gepflegte 4-Zimmerwohnung in Marl-Mitte! Mit Balkon &amp; Tiefgaragenstellplatz!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Marl</div>
+    <div class="card-price">205.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-etagenwohnung-in-dortmund-mieten-20241003/index.html"
+   data-mode="miete"
+   data-city="dortmund"
+   data-type="etagenwohnung"
+   data-price="95000">
+  <div class="card-photo"><img src="listings/wohnung-etagenwohnung-in-dortmund-mieten-20241003/images/01.jpg" alt="Neuwertige 3-Zimmerwohnung in Dortmund-Schüren zu vermieten! Mit Einbauküche, Balkon und Stellplatz!" loading="lazy"><span class="badge badge-miete">Miete</span></div>
+  <div class="card-body">
+    <div class="card-title">Etagenwohnung in Dortmund</div>
+    <div class="card-price">950,00 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-mehrfamilienhaus-in-hagen-altenhagen-kaufen-20241001/index.html"
+   data-mode="kauf"
+   data-city="hagen / altenhagen"
+   data-type="mehrfamilienhaus"
+   data-price="385000">
+  <div class="card-photo"><img src="listings/haus-mehrfamilienhaus-in-hagen-altenhagen-kaufen-20241001/images/01.jpg" alt="Top-Zustand! Saniertes Mehrfamilienhaus mit 6 Einheiten in Altenhagen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Mehrfamilienhaus in Hagen / Altenhagen</div>
+    <div class="card-price">385.000 EUR</div>
+    <div class="card-specs"><span>15 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-doppelhaushaelfte-in-luenen-gahmen-kaufen-20240903/index.html"
+   data-mode="kauf"
+   data-city="lünen / gahmen"
+   data-type="doppelhaushälfte"
+   data-price="360000">
+  <div class="card-photo"><img src="listings/haus-doppelhaushaelfte-in-luenen-gahmen-kaufen-20240903/images/01.jpg" alt="Angebotsverfahren: Doppelhaushälfte in Lünen-Gahmen! Mit Küche, Garage, Garten und PV-Anlage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Doppelhaushälfte in Lünen / Gahmen</div>
+    <div class="card-price">360.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-castrop-rauxel-kaufen-20240902/index.html"
+   data-mode="kauf"
+   data-city="castrop-rauxel"
+   data-type="reihenmittelhaus"
+   data-price="370000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-castrop-rauxel-kaufen-20240902/images/01.jpg" alt="Reihenmittelhaus in Castrop-Rauxel-Ickern! Mit Einbauküche und Garten!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Castrop-Rauxel</div>
+    <div class="card-price">370.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-duisburg-kaufen-20240804/index.html"
+   data-mode="kauf"
+   data-city="duisburg"
+   data-type="reihenmittelhaus"
+   data-price="280000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-duisburg-kaufen-20240804/images/01.jpg" alt="Gepflegtes Reihenmittelhaus in Duisburg-Bergheim! Mit Garten, Balkon und Garage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Duisburg</div>
+    <div class="card-price">280.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-oberhausen-sterkrade-mitte-kaufen-20240803/index.html"
+   data-mode="kauf"
+   data-city="oberhausen / sterkrade-mitte"
+   data-type="eigentumswohnung"
+   data-price="93000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-oberhausen-sterkrade-mitte-kaufen-20240803/images/01.jpg" alt="2-Zimmerwohnung mit Balkon in Oberhausen-Sterkrade!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Oberhausen / Sterkrade-Mitte</div>
+    <div class="card-price">93.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-mehrfamilienhaus-in-hagen-kaufen-20240802/index.html"
+   data-mode="kauf"
+   data-city="hagen"
+   data-type="mehrfamilienhaus"
+   data-price="845000">
+  <div class="card-photo"><img src="listings/haus-mehrfamilienhaus-in-hagen-kaufen-20240802/images/01.jpg" alt="Top Zustand! Modernisiertes Mehrfamilienhaus in Altenhagen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Mehrfamilienhaus in Hagen</div>
+    <div class="card-price">845.000 EUR</div>
+    <div class="card-specs"></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20240801/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="82000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20240801/images/01.jpg" alt="Vermietete 2-Zimmer-Erdgeschosswohnung in Wuppertal-Oberbarmen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">82.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-ostersbaum-kaufen-20240703r/index.html"
+   data-mode="kauf"
+   data-city="wuppertal / ostersbaum"
+   data-type="eigentumswohnung"
+   data-price="89000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-ostersbaum-kaufen-20240703r/images/01.jpg" alt="Sanierte 2-Zimmer-Erdgeschosswohnung in Wuppertal-Osterbaum!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal / Ostersbaum</div>
+    <div class="card-price">89.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-ostersbaum-kaufen-20240702l/index.html"
+   data-mode="kauf"
+   data-city="wuppertal / ostersbaum"
+   data-type="eigentumswohnung"
+   data-price="64000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-ostersbaum-kaufen-20240702l/images/01.jpg" alt="Sanierte Erdgeschosswohnung in Wuppertal-Osterbaum!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal / Ostersbaum</div>
+    <div class="card-price">64.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20240701/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="75000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20240701/images/01.jpg" alt="Vermietetes Apartment mit Balkon und Garage in Wuppertal-Barmen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">75.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20240601/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="85000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20240601/images/01.jpg" alt="Gepflegte Zwei-Zimmerwohnung in Wuppertal-Barmen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">85.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-duisburg-kaufen-20240503/index.html"
+   data-mode="kauf"
+   data-city="duisburg"
+   data-type="eigentumswohnung"
+   data-price="95000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-duisburg-kaufen-20240503/images/01.jpg" alt="Angebotsverfahren: Gepflegte Zwei-Zimmerwohnung in Duisburg-Ruhrort! Mit Einbauküche und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Duisburg</div>
+    <div class="card-price">95.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-barmen-kaufen-20240402/index.html"
+   data-mode="kauf"
+   data-city="wuppertal / barmen"
+   data-type="eigentumswohnung"
+   data-price="105000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-barmen-kaufen-20240402/images/01.jpg" alt="Renovierte Zwei-Zimmerwohnung mit Balkon, Einbauküche und Fahrstuhl in Wuppertal-Barmen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal / Barmen</div>
+    <div class="card-price">105.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-maisonettewohnung-in-dortmund-kaufen-20240401/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="175000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-maisonettewohnung-in-dortmund-kaufen-20240401/images/01.jpg" alt="Sanierte Maisonette-Wohnung mit vier Zimmern in Dortmund-Aplerbeck!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">175.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20240302/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="330000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20240302/images/01.jpg" alt="Exklusive 3-Zimmerwohnung in Dortmund-Eichlinghofen! Mit Balkon, Küche und Aufzug!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">330.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-doppelhaushaelfte-in-bergkamen-kaufen-20240301/index.html"
+   data-mode="kauf"
+   data-city="bergkamen"
+   data-type="doppelhaushälfte"
+   data-price="280000">
+  <div class="card-photo"><img src="listings/haus-doppelhaushaelfte-in-bergkamen-kaufen-20240301/images/01.jpg" alt="Angebotsverfahren: Doppelhaushälfte in Bergkamen-Rünthe! Mit Küche, Stellplatz und Terrasse!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Doppelhaushälfte in Bergkamen</div>
+    <div class="card-price">280.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20240204/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="140000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20240204/images/01.jpg" alt="Renovierte 3-Zimmerwohnung mit Balkon in Dortmund-Körne!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">140.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-einfamilienhaus-in-wuppertal-kaufen-20240102/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="einfamilienhaus"
+   data-price="745000">
+  <div class="card-photo"><img src="listings/haus-einfamilienhaus-in-wuppertal-kaufen-20240102/images/01.jpg" alt="Angebotsverfahren: Exklusive Stadtvilla in Wuppertal-Oberbarmen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Einfamilienhaus in Wuppertal</div>
+    <div class="card-price">745.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20240101/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="117000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20240101/images/01.jpg" alt="Individualisierbare zwei-Zimmerwohnung mit Balkon und Stellplatz in Bochum-Wiemelhausen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">117.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-jungferntal-kaufen-20231105/index.html"
+   data-mode="kauf"
+   data-city="dortmund / jungferntal"
+   data-type="eigentumswohnung"
+   data-price="82500">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-jungferntal-kaufen-20231105/images/01.jpg" alt="Individualisierbare 3-Zimmererdgeschosswohnung in Dortmund-Rahm!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund / Jungferntal</div>
+    <div class="card-price">82.500 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20231104/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="150000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20231104/images/01.jpg" alt="Vermietete Drei-Zimmerwohnung in Dortmund-Aplerbeck!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">150.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20231103/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="83000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20231103/images/01.jpg" alt="Vermietete Zwei-Zimmerwohnung in Wuppertal-Oberbarmen! Mit Fahrstuhl und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">83.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-einfamilienhaus-in-dortmund-kaufen-20231102/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="einfamilienhaus"
+   data-price="400000">
+  <div class="card-photo"><img src="listings/haus-einfamilienhaus-in-dortmund-kaufen-20231102/images/01.jpg" alt="Angebotsverfahren: Einfamilienhaus in Dortmund-Oespel! Gemütliches Ambiente in ruhiger Lage!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Einfamilienhaus in Dortmund</div>
+    <div class="card-price">400.000 EUR</div>
+    <div class="card-specs"><span>4,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20231005/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="259000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20231005/images/01.jpg" alt="Exklusive 2-Zimmer Neubauwohnung in Wuppertal-Elberfeld! Mit Balkon, Küche, Tiefgarage und Aufzug!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">259.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20231002/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="310000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20231002/images/01.jpg" alt="Repräsentative 3,5-Zimmerwohnung in Bochum-Mitte am Stadtpark! Mit Tiefgarage, Aufzug und XXL-Balkon" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">310.000 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-luetgendortmund-kaufen-20231001/index.html"
+   data-mode="kauf"
+   data-city="dortmund / lütgendortmund"
+   data-type="eigentumswohnung"
+   data-price="98500">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-luetgendortmund-kaufen-20231001/images/01.jpg" alt="Renovierte 2-Zimmerwohnung in Lütgendortmund!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund / Lütgendortmund</div>
+    <div class="card-price">98.500 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20230902/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="105000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20230902/images/01.jpg" alt="Sanierte 2-Zimmer-Erdgeschosswohnung in Wuppertal-Elberfeld! Mit Einbauküche &amp; Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">105.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20230901/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="85000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20230901/images/01.jpg" alt="Renovierungsbedürftige 3-Zimmererdgeschosswohnung in Wuppertal-Barmen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">85.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-essen-kaufen-20230802/index.html"
+   data-mode="kauf"
+   data-city="essen"
+   data-type="eigentumswohnung"
+   data-price="93000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-essen-kaufen-20230802/images/01.jpg" alt="Gepflegte zwei-Zimmerwohnung in Essen-Gerschede! Mit Balkon und Einbauküche!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Essen</div>
+    <div class="card-price">93.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-essen-altenessen-sued-kaufen-20230705/index.html"
+   data-mode="kauf"
+   data-city="essen / altenessen-süd"
+   data-type="reihenmittelhaus"
+   data-price="390000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-essen-altenessen-sued-kaufen-20230705/images/01.jpg" alt="Angebotsverfahren: Niedrigstenergie-Reihenmittelhaus in Altenessen-Süd! Mit Einbauküche und Garten!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Essen / Altenessen-Süd</div>
+    <div class="card-price">390.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-erdgeschosswohnung-in-dortmund-mieten-20230704/index.html"
+   data-mode="miete"
+   data-city="dortmund"
+   data-type="erdgeschosswohnung"
+   data-price="87000">
+  <div class="card-photo"><img src="listings/wohnung-erdgeschosswohnung-in-dortmund-mieten-20230704/images/01.jpg" alt="2-Zimmererdgeschosswohnung am Phoenix-See Dortmund zu vermieten! Mit Küche, Terrasse und Stellplatz!" loading="lazy"><span class="badge badge-miete">Miete</span></div>
+  <div class="card-body">
+    <div class="card-title">Erdgeschosswohnung in Dortmund</div>
+    <div class="card-price">870,00 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-penthousewohnung-in-dortmund-mieten-20230701/index.html"
+   data-mode="miete"
+   data-city="dortmund"
+   data-type="penthouse"
+   data-price="170000">
+  <div class="card-photo"><img src="listings/wohnung-penthousewohnung-in-dortmund-mieten-20230701/images/01.jpg" alt="Exklusives Penthouse mit Seeblick am Phoenix-See Dortmund zu vermieten!" loading="lazy"><span class="badge badge-miete">Miete</span></div>
+  <div class="card-body">
+    <div class="card-title">Penthouse in Dortmund</div>
+    <div class="card-price">1.700,00 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-essen-gerschede-kaufen-20230604/index.html"
+   data-mode="kauf"
+   data-city="essen / gerschede"
+   data-type="eigentumswohnung"
+   data-price="81000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-essen-gerschede-kaufen-20230604/images/01.jpg" alt="Zwei-Zimmer-Erdgeschosswohnung in Essen-Gerschede! Mit Balkon und Einbauküche!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Essen / Gerschede</div>
+    <div class="card-price">81.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-doppelhaushaelfte-in-dortmund-westerfilde-kaufen-20230502/index.html"
+   data-mode="kauf"
+   data-city="dortmund / westerfilde"
+   data-type="doppelhaushälfte"
+   data-price="295000">
+  <div class="card-photo"><img src="listings/haus-doppelhaushaelfte-in-dortmund-westerfilde-kaufen-20230502/images/01.jpg" alt="Bieterverfahren: Individualisierbare Doppelhaushälfte in Dortmund-Westerfilde! Mit Garage und Garten" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Doppelhaushälfte in Dortmund / Westerfilde</div>
+    <div class="card-price">295.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-dortmund-kaufen-20230501/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="reihenmittelhaus"
+   data-price="320000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-dortmund-kaufen-20230501/images/01.jpg" alt="Angebotsverfahren: Gepflegtes Reihenmittelhaus in Dortmund-Oespel am Dorneywald!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Dortmund</div>
+    <div class="card-price">320.000 EUR</div>
+    <div class="card-specs"><span>4,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-etagenwohnung-in-dortmund-mieten-20230304/index.html"
+   data-mode="miete"
+   data-city="dortmund"
+   data-type="etagenwohnung"
+   data-price="110000">
+  <div class="card-photo"><img src="listings/wohnung-etagenwohnung-in-dortmund-mieten-20230304/images/01.jpg" alt="4-Zimmerwohnung in Dortmund-Berghofen zu vermieten! Mit Garage und Balkon!" loading="lazy"><span class="badge badge-miete">Miete</span></div>
+  <div class="card-body">
+    <div class="card-title">Etagenwohnung in Dortmund</div>
+    <div class="card-price">1.100,00 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20230303/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="105000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-kaufen-20230303/images/01.jpg" alt="Top Zustand! Zwei Zimmerwohnung in beliebter Citylage in Wuppertal-Elberfeld! Mit Einbauküche!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">105.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-doppelhaushaelfte-in-dortmund-kaufen-20230205/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="doppelhaushälfte"
+   data-price="365000">
+  <div class="card-photo"><img src="listings/haus-doppelhaushaelfte-in-dortmund-kaufen-20230205/images/01.jpg" alt="Angebotsverfahren: Vermietete Doppelhaushälfte in Dortmund- Bittermark! Mit Garage und Garten!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Doppelhaushälfte in Dortmund</div>
+    <div class="card-price">365.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20230204/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="eigentumswohnung"
+   data-price="79500">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-wuppertal-kaufen-20230204/images/01.jpg" alt="Hochparterre: Zwei-Zimmerwohnung in Wuppertal-Süd-Barmen! Mit modernisierten Tageslichtbad!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal</div>
+    <div class="card-price">79.500 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-essen-kaufen-20230101/index.html"
+   data-mode="kauf"
+   data-city="essen"
+   data-type="eigentumswohnung"
+   data-price="150000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-essen-kaufen-20230101/images/01.jpg" alt="Top Zustand! Zwei-Zimmerwohnung mit Einbauküche, Balkon und Garage in Essen-Gerschede!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Essen</div>
+    <div class="card-price">150.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-scharnhorst-kaufen-20221205/index.html"
+   data-mode="kauf"
+   data-city="dortmund / scharnhorst"
+   data-type="eigentumswohnung"
+   data-price="115000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-erdgeschosswohnung-in-dortmund-scharnhorst-kaufen-20221205/images/01.jpg" alt="Gepflegte zwei-Zimmer-Erdgeschosswohnung mit Balkon und Garage in Dortmund-Scharnhorst!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund / Scharnhorst</div>
+    <div class="card-price">115.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-penthousewohnung-in-dortmund-mieten-20221204/index.html"
+   data-mode="miete"
+   data-city="dortmund"
+   data-type="penthouse"
+   data-price="137500">
+  <div class="card-photo"><img src="listings/wohnung-penthousewohnung-in-dortmund-mieten-20221204/images/01.jpg" alt="Penthouse-Wohnung am Phoenix-See Dortmund zu vermieten! Mit Küche, Dachterrasse und Stellplatz!" loading="lazy"><span class="badge badge-miete">Miete</span></div>
+  <div class="card-body">
+    <div class="card-title">Penthouse in Dortmund</div>
+    <div class="card-price">1.375,00 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-gerthe-kaufen-20221005/index.html"
+   data-mode="kauf"
+   data-city="bochum / gerthe"
+   data-type="eigentumswohnung"
+   data-price="63000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-gerthe-kaufen-20221005/images/01.jpg" alt="Vermietetes 30 m² Apartment mit Stellplatz in Bochum-Gerthe! 11 Minuten zur Ruhr-Uni!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum / Gerthe</div>
+    <div class="card-price">63.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-ostersbaum-kaufen-20221003/index.html"
+   data-mode="kauf"
+   data-city="wuppertal / ostersbaum"
+   data-type="eigentumswohnung"
+   data-price="160000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-ostersbaum-kaufen-20221003/images/01.jpg" alt="Gepflegte 4-Zimmerwohnung in Wuppertal-Elberfeld! Denkmalgeschütztes Altbaujuwel mit Küche &amp; Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal / Ostersbaum</div>
+    <div class="card-price">160.000 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-ronsdorf-kaufen-20220905/index.html"
+   data-mode="kauf"
+   data-city="wuppertal / ronsdorf"
+   data-type="eigentumswohnung"
+   data-price="119000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-wuppertal-ronsdorf-kaufen-20220905/images/01.jpg" alt="Gepflegte 2-Zimmerwohnung mit Balkon in Wuppertal-Ronsdorf!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Wuppertal / Ronsdorf</div>
+    <div class="card-price">119.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-reihenmittelhaus-in-dortmund-westerfilde-kaufen-20220904/index.html"
+   data-mode="kauf"
+   data-city="dortmund / westerfilde"
+   data-type="reihenmittelhaus"
+   data-price="395000">
+  <div class="card-photo"><img src="listings/haus-reihenmittelhaus-in-dortmund-westerfilde-kaufen-20220904/images/01.jpg" alt="Top Zustand! Reihenmittelhaus mit 127 m² in Dortmund-Westerfilde! Mit Garage, Garten und Keller!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Reihenmittelhaus in Dortmund / Westerfilde</div>
+    <div class="card-price">395.000 EUR</div>
+    <div class="card-specs"><span>5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-berghofen-kaufen-20220903/index.html"
+   data-mode="kauf"
+   data-city="dortmund / berghofen"
+   data-type="eigentumswohnung"
+   data-price="190000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-berghofen-kaufen-20220903/images/01.jpg" alt="Gepflegte 2,5-Zimmerwohnung in Dortmund-Berghofen! Mit Stellplatz, Einbauküche, Aufzug und Balkon!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund / Berghofen</div>
+    <div class="card-price">190.000 EUR</div>
+    <div class="card-specs"><span>2,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-gerthe-kaufen-20220803/index.html"
+   data-mode="kauf"
+   data-city="bochum / gerthe"
+   data-type="eigentumswohnung"
+   data-price="63000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-gerthe-kaufen-20220803/images/01.jpg" alt="Vermietetes 27 m² Apartment mit Stellplatz in Bochum-Gerthe! 11 Minuten zur Ruhr-Uni!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum / Gerthe</div>
+    <div class="card-price">63.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-etagenwohnung-in-dortmund-mieten-20220802/index.html"
+   data-mode="miete"
+   data-city="dortmund"
+   data-type="etagenwohnung"
+   data-price="120000">
+  <div class="card-photo"><img src="listings/wohnung-etagenwohnung-in-dortmund-mieten-20220802/images/01.jpg" alt="4-Zimmer Wohnung am Phoenix See-Dortmund zu vermieten!" loading="lazy"><span class="badge badge-miete">Miete</span></div>
+  <div class="card-body">
+    <div class="card-title">Etagenwohnung in Dortmund</div>
+    <div class="card-price">1.200,00 EUR</div>
+    <div class="card-specs"><span>4 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-mehrfamilienhaus-in-wuppertal-kaufen-20220801/index.html"
+   data-mode="kauf"
+   data-city="wuppertal"
+   data-type="mehrfamilienhaus"
+   data-price="425000">
+  <div class="card-photo"><img src="listings/haus-mehrfamilienhaus-in-wuppertal-kaufen-20220801/images/01.jpg" alt="Top Zustand! Gepflegtes Mehrfamilienhaus mit 5 Einheiten und Ausbaureserve in Wuppertal-Elberfeld!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Mehrfamilienhaus in Wuppertal</div>
+    <div class="card-price">425.000 EUR</div>
+    <div class="card-specs"></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-einfamilienhaus-in-dortmund-kaufen-20220604/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="einfamilienhaus"
+   data-price="540000">
+  <div class="card-photo"><img src="listings/haus-einfamilienhaus-in-dortmund-kaufen-20220604/images/01.jpg" alt="Repräsentatives Ein- bis Dreifamilienhaus in Dortmund-Asseln! Mit drei Garagen, Garten und Keller!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Einfamilienhaus in Dortmund</div>
+    <div class="card-price">540.000 EUR</div>
+    <div class="card-specs"><span>8 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-essen-dellwig-kaufen-20220603/index.html"
+   data-mode="kauf"
+   data-city="essen / dellwig"
+   data-type="eigentumswohnung"
+   data-price="67000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-essen-dellwig-kaufen-20220603/images/01.jpg" alt="33 m² Apartment mit Stellplatz in Essen-Dellwigl! 10 Minuten zur Uni Duisburg-Essen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Essen / Dellwig</div>
+    <div class="card-price">67.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-scharnhorst-kaufen-20220502/index.html"
+   data-mode="kauf"
+   data-city="dortmund / scharnhorst"
+   data-type="eigentumswohnung"
+   data-price="140000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-scharnhorst-kaufen-20220502/images/01.jpg" alt="Renovierte 3-Zimmerwohnung in Dortmund-Scharnhorst mit Balkon und Einbauküche!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund / Scharnhorst</div>
+    <div class="card-price">140.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bergkamen-kaufen-20220501/index.html"
+   data-mode="kauf"
+   data-city="bergkamen"
+   data-type="eigentumswohnung"
+   data-price="126500">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bergkamen-kaufen-20220501/images/01.jpg" alt="Renovierte 3-Zimmerwohnung mit Balkon, Stellplatz und Aufzug in Bergkamen-Mitte!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bergkamen</div>
+    <div class="card-price">126.500 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20220304/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="90000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20220304/images/01.jpg" alt="Vollständig Renovierte 2-Zimmerwohnung in Bochum-Werne nahe des Ümminger Sees!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">90.000 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-etagenwohnung-in-dortmund-hoerde-mieten-20220303/index.html"
+   data-mode="miete"
+   data-city="dortmund / hörde"
+   data-type="etagenwohnung"
+   data-price="54500">
+  <div class="card-photo"><img src="listings/wohnung-etagenwohnung-in-dortmund-hoerde-mieten-20220303/images/01.jpg" alt="2-Zimmerwohnung am Phoenix-See Dortmund zu vermieten! Mit Balkon, Tiefgaragenstellplatz und Aufzug!" loading="lazy"><span class="badge badge-miete">Miete</span></div>
+  <div class="card-body">
+    <div class="card-title">Etagenwohnung in Dortmund / Hörde</div>
+    <div class="card-price">545,00 EUR</div>
+    <div class="card-specs"><span>2 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-dachgeschosswohnung-in-unna-kaufen-20220201/index.html"
+   data-mode="kauf"
+   data-city="unna"
+   data-type="eigentumswohnung"
+   data-price="220000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-dachgeschosswohnung-in-unna-kaufen-20220201/images/01.jpg" alt="Kapitalanlage: Vermietete Dachgeschosswohnung in Unna-Mitte! Mit Stellplatz, Balkon und Aufzug!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Unna</div>
+    <div class="card-price">220.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bergkamen-kaufen-20211201/index.html"
+   data-mode="kauf"
+   data-city="bergkamen"
+   data-type="eigentumswohnung"
+   data-price="143000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bergkamen-kaufen-20211201/images/01.jpg" alt="Vollständig Renovierte 3-Zimmerwohnung in Bergkamen! Mit Aufzug und Loggia!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bergkamen</div>
+    <div class="card-price">143.000 EUR</div>
+    <div class="card-specs"><span>3 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/haus-mehrfamilienhaus-in-wetter-ruhr-kaufen-20211003/index.html"
+   data-mode="kauf"
+   data-city="wetter (ruhr)"
+   data-type="mehrfamilienhaus"
+   data-price="595000">
+  <div class="card-photo"><img src="listings/haus-mehrfamilienhaus-in-wetter-ruhr-kaufen-20211003/images/01.jpg" alt="Vermietetes Ein- bis Vierfamilienhaus in Wetter-Grundschöttel! Ideal zum Mehrgenerationenwohnen!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Mehrfamilienhaus in Wetter (Ruhr)</div>
+    <div class="card-price">595.000 EUR</div>
+    <div class="card-specs"><span>10 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20211001/index.html"
+   data-mode="kauf"
+   data-city="dortmund"
+   data-type="eigentumswohnung"
+   data-price="170000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-dortmund-kaufen-20211001/images/01.jpg" alt="Individualisierbare 3,5-Zimmerwohnung in Dortmund-Rahm! Mit Aufzug, Garage und Loggia!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Dortmund</div>
+    <div class="card-price">170.000 EUR</div>
+    <div class="card-specs"><span>3,5 Zi.</span></div>
+  </div>
+</a>
+
+
+<a class="card"
+   href="immobilien/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20210901/index.html"
+   data-mode="kauf"
+   data-city="bochum"
+   data-type="eigentumswohnung"
+   data-price="80000">
+  <div class="card-photo"><img src="listings/wohnung-eigentumswohnung-etagenwohnung-in-bochum-kaufen-20210901/images/01.jpg" alt="29 m² Apartment in Bochum-Stiepel! 5 Minuten zur Ruhr-Uni!" loading="lazy"><span class="badge badge-kauf">Kauf</span></div>
+  <div class="card-body">
+    <div class="card-title">Eigentumswohnung in Bochum</div>
+    <div class="card-price">80.000 EUR</div>
+    <div class="card-specs"><span>1 Zi.</span></div>
+  </div>
+</a>
+
+    </div>
+    <div class="empty-state" id="empty-state" hidden>
+      Keine Immobilien entsprechen Ihren Filterkriterien.
+    </div>
+  </div>
+</section>
+
+<script src="assets/main.js"></script>
+</main>
+<footer class="site-footer" id="kontakt">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">Roesch & Klein Immobilien</div>
+      <div class="footer-sub">Ihr Immobilienmakler — persönlich, transparent, zuverlässig.</div>
+    </div>
+    <div>
+      <div class="footer-label">Kontakt</div>
+      <a href="mailto:info@roesch-klein.de">info@roesch-klein.de</a><br>
+      <a href="tel:+490000000000">+49 (0) 000 000 000</a>
+    </div>
+    <div>
+      <div class="footer-label">Rechtliches</div>
+      <a href="impressum.html">Impressum</a><br>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© 2026 Roesch & Klein Immobilien. Alle Rechte vorbehalten.</div>
+</footer>
+</body>
+</html>

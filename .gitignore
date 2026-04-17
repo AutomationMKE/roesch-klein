@@ -1,0 +1,12 @@
+# Scraper & generator artifacts
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local editor stuff
+.vscode/
+.idea/
+
+# Anything you keep locally but don't want on GitHub
+_local/
