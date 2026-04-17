@@ -230,8 +230,7 @@ BASE_FOOT = """</main>
     </div>
     <div>
       <div class="footer-label">Kontakt</div>
-      <a href="mailto:{email}">{email}</a><br>
-      <a href="tel:{phone_plain}">{phone}</a>
+      <a href="mailto:{email}">{email}</a>
     </div>
     <div>
       <div class="footer-label">Rechtliches</div>
@@ -499,8 +498,7 @@ def render_detail(listing: dict) -> str:
         <p>Nehmen Sie Kontakt mit uns auf — wir beraten Sie gerne und organisieren einen Besichtigungstermin.</p>
         <a class="btn-primary" href="{esc(mailto)}">Jetzt anfragen</a>
         <div class="contact-meta">
-          <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a><br>
-          <a href="tel:{phone_plain}">{PHONE_DISPLAY}</a>
+          <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>
         </div>
       </div>
       {render_spec_table(listing["od"])}
