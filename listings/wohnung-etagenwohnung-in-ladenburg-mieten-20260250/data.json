@@ -1,0 +1,55 @@
+{
+  "title": "Exklusive 3-Zimmer-Wohnung mit Balkon in Ladenburg!",
+  "headline": "68526 Ladenburg, Etagenwohnung",
+  "sort_key": "20260250",
+  "description": {
+    "Objektbeschreibung": "Moderne 3-Zimmer-Wohnung im 1. Obergeschoss eines Neubauobjekts (Baujahr 2026) in Ladenburg. Die Wohnung überzeugt durch eine hochwertige, energieeffiziente Bauweise mit Energieeffizienzklasse A+ (Endenergiebedarf 19 kWh/(m²·a)), Wärmepumpenheizung und Fußbodenheizung in allen Räumen.\nEin hochwertiger Vinyl-Boden zieht sich durch die Wohnräume; Kunststofffenster mit elektrischen Rollläden sorgen für Komfort und Sicherheit. Das Tageslichtbad ist mit bodenebener Dusche, Badewanne und Waschmaschinenanschluss ausgestattet.\nDer nach Osten ausgerichtete Balkon lädt zum morgendlichen Frühstück im Freien ein. Ein Personenaufzug erschließt alle Etagen, eine digitale Gegensprechanlage mit Kamera und App-Steuerung sorgt für modernen Komfort. Zur Wohnung gehören zudem ein Tiefgaragenstellplatz sowie Fahrradstellplätze in der Tiefgarage. Der Hausmeisterservice ist inklusive.",
+    "Ausstattung": "Das Objekt ist in gehobener Qualität ausgestattet und befindet sich in neuwertigem Zustand."
+  },
+  "lage": "Ladenburg ist eine historische Kleinstadt am Neckar und liegt zentral in der Metropolregion Rhein-Neckar — mit einer der ältesten Altstädte Deutschlands und rund 12.000 Einwohnern.\n\nDie Lage zwischen Mannheim und Heidelberg bietet eine hervorragende Verkehrsanbindung: die Bundesautobahnen A5 und A6 sind in wenigen Minuten erreichbar, die S-Bahn RheinNeckar verbindet Ladenburg direkt mit den Hauptbahnhöfen beider Städte. Der Frankfurter Flughafen ist in unter einer Stunde erreichbar.\n\nVor Ort steht eine umfassende Infrastruktur zur Verfügung: Grundschulen, weiterführende Schulen, Kindertagesstätten, Ärzte, Einkaufsmöglichkeiten für den täglichen Bedarf sowie Gastronomie und Kulturangebote in der denkmalgeschützten Altstadt. Grüngürtel und Neckar-Uferwege laden zu Erholung und Freizeit ein.",
+  "specs": {
+    "Objektdaten": {
+      "Objekt ID": "20260250",
+      "Kaltmiete": "1.280,87 €",
+      "Nebenkosten": "200,00 €",
+      "Heizkosten": "140,00 €",
+      "Warmmiete": "1.620,87 €",
+      "Kaution": "4.862,60 €",
+      "Preis/m²": "17,46 €/m²",
+      "Wohnfläche": "73,36 m²",
+      "Zimmer": "3",
+      "Schlafzimmer": "2",
+      "Badezimmer": "1",
+      "Etage": "1 von 3",
+      "Baujahr": "2026",
+      "Zustand": "Neuwertig",
+      "Ausstattung": "Gehobene Qualität",
+      "Verfügbar ab": "Nach Vereinbarung",
+      "Haustiere": "Nach Vereinbarung",
+      "Garage/Stellplatz": "1 Tiefgaragen-Stellplatz",
+      "Miete Stellplatz": "70,00 €"
+    },
+    "Ausstattung / Merkmale": [
+      "Ostbalkon",
+      "Kunststofffenster mit elektrischen Rollläden",
+      "Personenaufzug",
+      "Tageslichtbad mit bodenebener Dusche und Badewanne",
+      "Waschmaschinenanschluss im Badezimmer",
+      "Tiefgaragenstellplatz",
+      "Hochwertiger Vinyl-Boden",
+      "Fußbodenheizung in allen Räumen",
+      "Fahrradstellplätze in der Tiefgarage",
+      "Hochwertige Bauweise, energieeffizient und nachhaltig",
+      "Digitale Gegensprechanlage mit Kamera und App-Steuerung",
+      "Hausmeisterservice"
+    ],
+    "Energieausweis": {
+      "Energieausweistyp": "Bedarfsausweis",
+      "Baujahr": "2026",
+      "Heizungsart": "Wärmepumpe",
+      "Wesentlicher Energieträger": "Umweltwärme",
+      "Endenergiebedarf": "19 kWh/(m²·a)",
+      "Energieeffizienzklasse": "A+"
+    }
+  }
+}

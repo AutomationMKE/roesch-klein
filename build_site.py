@@ -138,15 +138,27 @@ def get_features(data: dict) -> list[str]:
 
 
 def load_listings() -> list[dict]:
-    index = json.loads((LISTINGS_DIR / "index.json").read_text(encoding="utf-8"))
+    """
+    Scan listings/*/data.json directly. Do NOT rely on listings/index.json,
+    because the scraper overwrites it on every run and would otherwise
+    silently drop any manually-curated listings added via add_new_listings.py.
+    """
     listings = []
-    for row in index:
-        slug = row["slug"]
-        data_path = LISTINGS_DIR / slug / "data.json"
+    if not LISTINGS_DIR.exists():
+        return listings
+    for slug_dir in sorted(LISTINGS_DIR.iterdir()):
+        if not slug_dir.is_dir():
+            continue
+        data_path = slug_dir / "data.json"
         if not data_path.exists():
             continue
-        data = json.loads(data_path.read_text(encoding="utf-8"))
-        images_dir = LISTINGS_DIR / slug / "images"
+        slug = slug_dir.name
+        try:
+            data = json.loads(data_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            print(f"! Skipping {slug}: invalid data.json ({e})")
+            continue
+        images_dir = slug_dir / "images"
         images = (
             sorted(p.name for p in images_dir.iterdir() if p.is_file())
             if images_dir.exists() else []
@@ -159,8 +171,8 @@ def load_listings() -> list[dict]:
         listings.append({
             "slug": slug,
             "url_rel": f"immobilien/{slug}/index.html",
-            "title": data.get("title") or row.get("title") or slug,
-            "headline": data.get("headline") or row.get("headline") or "",
+            "title": data.get("title") or slug,
+            "headline": data.get("headline") or "",
             "mode": mode,
             "type": extract_type(slug),
             "city": extract_city(data.get("headline"), slug),
@@ -180,10 +192,13 @@ def load_listings() -> list[dict]:
             "hero_rel_detail": f"images/{images[0]}" if images else "",
             "images": images,
             "image_count": len(images),
+            # Optional: lets add_new_listings.py control grid position without
+            # having to game Objekt-IDs. Falls back to Objekt-ID if unset.
+            "sort_key": data.get("sort_key"),
         })
-    # Newest first by Objekt-ID if numeric
+    # Newest first by sort_key (if set) or Objekt-ID. Lexicographic reverse.
     listings.sort(
-        key=lambda x: (x["objekt_id"] or ""),
+        key=lambda x: (x["sort_key"] or x["objekt_id"] or ""),
         reverse=True,
     )
     return listings

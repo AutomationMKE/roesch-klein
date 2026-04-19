@@ -1,0 +1,51 @@
+{
+  "title": "Charmante Erdgeschoss-Wohnung mit Terrasse in Ladenburg!",
+  "headline": "68526 Ladenburg, Erdgeschosswohnung",
+  "sort_key": "20260220",
+  "description": {
+    "Objektbeschreibung": "Charmante 3-Zimmer-Erdgeschosswohnung mit eigener Terrasse in einem Neubauobjekt in Ladenburg (Baujahr 2026). Der offene Wohn-Essbereich bildet das Herzstück der Wohnung und schafft ein großzügiges Raumgefühl.\nDer stufenlose Zugang und ein Personenaufzug machen die Wohnung altersgerecht und barrierearm. Das Tageslichtbad ist mit Badewanne und Dusche ausgestattet.\nGeheizt wird über eine moderne Wärmepumpe mit Umweltwärme als wesentlichem Energieträger — die Wohnung erreicht Energieeffizienzklasse A+ (Endenergiebedarf 19 kWh/(m²·a)).\nZur Wohnung gehören ein Kellerabteil und ein Tiefgaragenstellplatz.",
+    "Ausstattung": "Das Objekt ist in normaler Qualität ausgestattet und gepflegt."
+  },
+  "lage": "Ladenburg ist eine historische Kleinstadt am Neckar und liegt zentral in der Metropolregion Rhein-Neckar — mit einer der ältesten Altstädte Deutschlands und rund 12.000 Einwohnern.\n\nDie Lage zwischen Mannheim und Heidelberg bietet eine hervorragende Verkehrsanbindung: die Bundesautobahnen A5 und A6 sind in wenigen Minuten erreichbar, die S-Bahn RheinNeckar verbindet Ladenburg direkt mit den Hauptbahnhöfen beider Städte. Der Frankfurter Flughafen ist in unter einer Stunde erreichbar.\n\nVor Ort steht eine umfassende Infrastruktur zur Verfügung: Grundschulen, weiterführende Schulen, Kindertagesstätten, Ärzte, Einkaufsmöglichkeiten für den täglichen Bedarf sowie Gastronomie und Kulturangebote in der denkmalgeschützten Altstadt. Grüngürtel und Neckar-Uferwege laden zu Erholung und Freizeit ein.",
+  "specs": {
+    "Objektdaten": {
+      "Objekt ID": "20260220",
+      "Kaltmiete": "1.350,59 €",
+      "Nebenkosten": "200,00 €",
+      "Heizkosten": "140,00 €",
+      "Warmmiete": "1.690,59 €",
+      "Kaution": "5.071,77 €",
+      "Preis/m²": "17,17 €/m²",
+      "Wohnfläche": "78,66 m²",
+      "Zimmer": "3",
+      "Schlafzimmer": "2",
+      "Badezimmer": "1",
+      "Etage": "0 von 0",
+      "Baujahr": "2026",
+      "Zustand": "Gepflegt",
+      "Ausstattung": "Normale Qualität",
+      "Verfügbar ab": "Nach Vereinbarung",
+      "Haustiere": "Nach Vereinbarung",
+      "Garage/Stellplatz": "1 Tiefgaragen-Stellplatz",
+      "Miete Stellplatz": "70,00 €"
+    },
+    "Ausstattung / Merkmale": [
+      "Terrasse",
+      "Keller",
+      "Personenaufzug",
+      "Stufenloser Zugang",
+      "Tageslichtbad mit Badewanne und Dusche",
+      "Tiefgaragenstellplatz",
+      "Wärmepumpenheizung",
+      "Offener Wohn-Essbereich"
+    ],
+    "Energieausweis": {
+      "Energieausweistyp": "Bedarfsausweis",
+      "Baujahr": "2026",
+      "Heizungsart": "Wärmepumpe",
+      "Wesentlicher Energieträger": "Umweltwärme",
+      "Endenergiebedarf": "19 kWh/(m²·a)",
+      "Energieeffizienzklasse": "A+"
+    }
+  }
+}
