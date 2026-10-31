@@ -17,8 +17,8 @@ Photos are resized to max. 1600 px and saved as JPEG. PDF floor plans are
 rendered to JPEG (needs pymupdf). Floor plans are always the last image.
 
 Rents: cold rent per m² is at least 15,50 €/m² for every listing, the
-area-weighted average over all five listings is 16,01 €/m²
-(6.550 € Kaltmiete / 409,22 m²).
+simple average of the five €/m² values is 16,00 €/m²
+(15,50 + 15,50 + 17,75 + 15,50 + 15,74) / 5.
 """
 
 from __future__ import annotations
@@ -314,12 +314,12 @@ LISTINGS = [
             "specs": {
                 "Objektdaten": {
                     "Objekt ID": "20261103",
-                    "Kaltmiete": "770 €",
+                    "Kaltmiete": "668 €",
                     "Nebenkosten": "240 €",
                     "Heizkosten": "in Nebenkosten enthalten",
-                    "Warmmiete": "1.010 €",
+                    "Warmmiete": "908 €",
                     "Kaution": "Nach Vereinbarung",
-                    "Preis/m²": "20,46 €/m²",
+                    "Preis/m²": "17,75 €/m²",
                     "Wohnfläche": "37,64 m²",
                     "Zimmer": "2",
                     "Schlafzimmer": "1",
