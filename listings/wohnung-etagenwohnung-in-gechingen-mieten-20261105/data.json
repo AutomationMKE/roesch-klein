@@ -1,0 +1,55 @@
+{
+  "title": "Erstbezug: 4-Zimmer-Wohnung in der obersten Etage mit Balkon und Weitblick",
+  "headline": "75391 Gechingen, Etagenwohnung",
+  "sort_key": "20261105",
+  "description": {
+    "Objektbeschreibung": "Diese 4-Zimmer-Wohnung liegt im 2. Obergeschoss und damit auf der obersten Wohnetage eines Neubaus im Quartier Talaue. Über Ihnen wohnt niemand, der Aufzug bringt Sie bis auf Ihre Etage.\nAuf 108,17 m² Wohnfläche bildet der helle Wohn-, Koch- und Essbereich mit rund 43 m² das Herzstück. Von hier aus betreten Sie den Balkon mit Blick ins Grüne. Drei weitere Zimmer eignen sich als Schlaf-, Kinder-, Gäste- oder Arbeitszimmer.\nZwei Bäder mit bodengleichen Duschen, ein Abstellraum in der Wohnung und ein Kellerabteil bieten Komfort und Stauraum. Zwei Tiefgaragenstellplätze gehören zur Wohnung.",
+    "Ausstattung": "Einbauküche (in der Miete enthalten), einzelraumgeregelte Fußbodenheizung, Echtholzparkett in den Zimmern, großformatige Fliesen in Wohn-/Kochbereich und Bädern, elektrische Rollläden, Videogegensprechanlage mit Farbdisplay. Die Wohnung ist barrierearm angelegt. Geheizt wird über eine zentrale Holzpelletanlage (Effizienzhaus 55).",
+    "Sonstiges": "Die Nebenkosten sind eine monatliche Vorauszahlung inklusive Heizung und Warmwasser und werden jährlich abgerechnet. Die beiden Tiefgaragenstellplätze kosten je 60 € im Monat. Haustiere nach Absprache."
+  },
+  "lage": "Das neue Wohnquartier Talaue liegt ruhig am Ortsrand von Gechingen im Landkreis Calw, direkt an einem Naturschutzgebiet mit Spazier-, Rad- und Joggingwegen. Zwischen den Häusern entsteht ein grünes, parkartiges Wohnumfeld.\nBäcker, Lebensmittelgeschäfte und Restaurants im Ortszentrum sind in wenigen Gehminuten erreichbar, ein Kindergarten liegt gegenüber.\nFahrzeiten mit dem Auto (ca.): Calw 15 Minuten, A81 (Anschlussstelle Gärtringen) 15 Minuten, Herrenberg 18 Minuten, Böblingen 22 Minuten, Sindelfingen 23 Minuten, Flughafen und Messe Stuttgart 35 Minuten, Stuttgart Zentrum 40 Minuten.",
+  "specs": {
+    "Objektdaten": {
+      "Objekt ID": "20261105",
+      "Kaltmiete": "1.677 €",
+      "Nebenkosten": "320 €",
+      "Heizkosten": "in Nebenkosten enthalten",
+      "Warmmiete": "1.997 €",
+      "Kaution": "3.354 € (2 Nettokaltmieten)",
+      "Preis/m²": "15,50 €/m²",
+      "Wohnfläche": "108,17 m²",
+      "Zimmer": "4",
+      "Badezimmer": "2",
+      "Etage": "2. Obergeschoss (oberste Etage)",
+      "Baujahr": "2026",
+      "Zustand": "Erstbezug",
+      "Ausstattung": "Gehobene Qualität",
+      "Verfügbar ab": "Sofort",
+      "Haustiere": "Nach Vereinbarung",
+      "Garage/Stellplatz": "2 Tiefgaragenstellplätze",
+      "Miete Stellplatz": "je 60 €"
+    },
+    "Ausstattung / Merkmale": [
+      "Balkon mit Blick ins Grüne",
+      "Einbauküche inklusive",
+      "Zwei Bäder mit bodengleichen Duschen",
+      "Personenaufzug",
+      "Barrierearm",
+      "Einzelraumgeregelte Fußbodenheizung",
+      "Echtholzparkett",
+      "Elektrische Rollläden",
+      "Videogegensprechanlage",
+      "Abstellraum in der Wohnung",
+      "Kellerabteil",
+      "Zwei Tiefgaragenstellplätze"
+    ],
+    "Energieausweis": {
+      "Energieausweistyp": "Bedarfsausweis",
+      "Baujahr": "2026",
+      "Heizungsart": "Zentralheizung mit Fußbodenheizung",
+      "Wesentlicher Energieträger": "Holzpellets",
+      "Endenergiebedarf": "59 kWh/(m²·a)",
+      "Energieeffizienzklasse": "B"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Erstbezug in Aussichtslage: 4-Zimmer-Wohnung mit Südwest-Balkon",
+  "headline": "75391 Gechingen, Etagenwohnung",
+  "sort_key": "20261104",
+  "description": {
+    "Objektbeschreibung": "Hochwertig ausgestattete 4-Zimmer-Wohnung im 1. Obergeschoss eines Neubaus mit sieben Wohnungen, in naturnaher Ortsrandlage mit unverbaubarem Blick über die Felder.\nDer offene Wohn-, Koch- und Essbereich führt auf den großen Balkon in Südwest-Ausrichtung. Das Schlafzimmer hat ein eigenes Duschbad, dazu kommen zwei weitere Zimmer, etwa für Kinder, Gäste oder das Homeoffice, sowie ein Gäste-WC mit Dusche.\nEin Tiefgaragenstellplatz ist in der Miete enthalten. Im Untergeschoss gibt es einen Kellerraum, einen großen Fahrradraum und einen Stellplatz für Waschmaschine und Trockner.",
+    "Ausstattung": "Heller Fliesenboden mit Fußbodenheizung in allen Räumen, Wände in Glattputz, Deckeneinbaustrahler im Wohn-, Ess- und Flurbereich. Hochwertige Einbauküche mit viel Stauraum, Kühl-Gefrierkombination, Spülmaschine und Kochfeld mit integriertem Dunstabzug. Duschbäder mit Regendusche, Spiegelschrank und integrierter Beleuchtung. Aufzug im Haus.",
+    "Sonstiges": "Die Nebenkosten sind eine monatliche Vorauszahlung inklusive Heizung und werden jährlich abgerechnet. Haustiere sind nicht gestattet."
+  },
+  "lage": "Das neue Wohnquartier Talaue liegt ruhig am Ortsrand von Gechingen im Landkreis Calw, direkt an einem Naturschutzgebiet mit Spazier-, Rad- und Joggingwegen. Zwischen den Häusern entsteht ein grünes, parkartiges Wohnumfeld.\nBäcker, Lebensmittelgeschäfte und Restaurants im Ortszentrum sind in wenigen Gehminuten erreichbar, ein Kindergarten liegt gegenüber.\nFahrzeiten mit dem Auto (ca.): Calw 15 Minuten, A81 (Anschlussstelle Gärtringen) 15 Minuten, Herrenberg 18 Minuten, Böblingen 22 Minuten, Sindelfingen 23 Minuten, Flughafen und Messe Stuttgart 35 Minuten, Stuttgart Zentrum 40 Minuten.",
+  "specs": {
+    "Objektdaten": {
+      "Objekt ID": "20261104",
+      "Kaltmiete": "1.394 €",
+      "Nebenkosten": "300 €",
+      "Heizkosten": "in Nebenkosten enthalten",
+      "Warmmiete": "1.694 €",
+      "Kaution": "Nach Vereinbarung",
+      "Preis/m²": "15,50 €/m²",
+      "Wohnfläche": "89,91 m²",
+      "Zimmer": "4",
+      "Badezimmer": "2",
+      "Etage": "1. Obergeschoss",
+      "Baujahr": "2026",
+      "Zustand": "Erstbezug",
+      "Ausstattung": "Gehobene Qualität",
+      "Verfügbar ab": "Nach Vereinbarung",
+      "Haustiere": "Nein",
+      "Garage/Stellplatz": "1 Tiefgaragenstellplatz",
+      "Miete Stellplatz": "In der Miete enthalten"
+    },
+    "Ausstattung / Merkmale": [
+      "Großer Balkon in Südwest-Ausrichtung",
+      "Unverbaubarer Weitblick",
+      "Einbauküche mit Spülmaschine",
+      "Schlafzimmer mit eigenem Duschbad",
+      "Gäste-WC mit Dusche",
+      "Fußbodenheizung",
+      "Deckeneinbaustrahler",
+      "Personenaufzug",
+      "Abstellraum in der Wohnung",
+      "Kellerraum und Fahrradraum",
+      "Tiefgaragenstellplatz inklusive"
+    ],
+    "Energieausweis": {
+      "Energieausweistyp": "Bedarfsausweis",
+      "Baujahr": "2026",
+      "Heizungsart": "Zentralheizung mit Fußbodenheizung",
+      "Wesentlicher Energieträger": "Holzpellets",
+      "Endenergiebedarf": "64 kWh/(m²·a)",
+      "Energieeffizienzklasse": "B"
+    }
+  }
+}

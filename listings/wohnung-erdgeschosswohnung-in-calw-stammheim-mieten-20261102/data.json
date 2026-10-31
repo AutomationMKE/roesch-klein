@@ -1,0 +1,56 @@
+{
+  "title": "Barrierefreie 3-Zimmer-Wohnung mit Terrasse und eigenem Garten",
+  "headline": "75365 Calw-Stammheim, Erdgeschosswohnung",
+  "sort_key": "20261102",
+  "description": {
+    "Objektbeschreibung": "Moderne, barrierefreie 3-Zimmer-Erdgeschosswohnung in einem neuen Mehrfamilienhaus mit nur sechs Wohnungen im Ortskern von Stammheim.\nDer offene Wohn-, Ess- und Kochbereich (ca. 39 m²) führt über eine große, bodentiefe Schiebetür auf die Terrasse und in den eigenen Garten (Sondernutzungsrecht ca. 35 m²). Dazu kommen ein Schlafzimmer, ein Kinder- oder Arbeitszimmer, ein Bad mit Dusche und Badewanne, ein separates Gäste-WC mit Waschmaschinenanschluss und ein Abstellraum.\nEin Kellerraum und ein Carport-Stellplatz direkt am Haus gehören dazu.",
+    "Ausstattung": "Fußbodenheizung mit Wärmepumpe, hochwertiger Vinylboden in Eiche hell, elektrische Rollläden, Videosprechanlage, Handtuchheizkörper, Raumhöhe 2,60 m, keramische Platten auf der Terrasse. Barrierefrei nach Landesbauordnung. Eine Einbauküche mit Induktionskochfeld kann für 70 € im Monat gemietet werden.",
+    "Sonstiges": "Die Nebenkosten sind eine monatliche Vorauszahlung inklusive Heizung und werden jährlich abgerechnet. Der Carport kostet 70 € im Monat. Haustiere sind nicht gestattet. Die Küchenbilder sind Visualisierungen, die Ansichten des Hauses unverbindliche Illustrationen."
+  },
+  "lage": "Die Wohnung liegt im Ortskern von Calw-Stammheim. Geschäfte, Ärzte und Dienstleister sind zu Fuß erreichbar, Kinderkrippe, Kindergarten und Schulen bis zum Gymnasium befinden sich in der Nähe.\nDie Bushaltestelle ist rund 4 Gehminuten entfernt, die Calwer Innenstadt erreichen Sie mit dem Auto in etwa 5 Minuten. Die Hermann-Hesse-Bahn verbindet Calw mit Böblingen und Stuttgart, die Autobahnen A81 (Gärtringen) und A8 (Renningen) sind gut erreichbar.",
+  "specs": {
+    "Objektdaten": {
+      "Objekt ID": "20261102",
+      "Kaltmiete": "1.434 €",
+      "Nebenkosten": "200 €",
+      "Heizkosten": "in Nebenkosten enthalten",
+      "Warmmiete": "1.634 €",
+      "Kaution": "4.302 € (3 Nettokaltmieten)",
+      "Preis/m²": "15,50 €/m²",
+      "Wohnfläche": "92,50 m²",
+      "Zimmer": "3",
+      "Schlafzimmer": "2",
+      "Badezimmer": "1 + Gäste-WC",
+      "Etage": "Erdgeschoss",
+      "Baujahr": "2025",
+      "Zustand": "Neuwertig",
+      "Ausstattung": "Gehobene Qualität",
+      "Verfügbar ab": "Nach Vereinbarung",
+      "Haustiere": "Nein",
+      "Garage/Stellplatz": "1 Carport",
+      "Miete Stellplatz": "70 €"
+    },
+    "Ausstattung / Merkmale": [
+      "Terrasse mit eigenem Garten (ca. 35 m²)",
+      "Barrierefrei nach Landesbauordnung",
+      "Bad mit Dusche und Badewanne",
+      "Gäste-WC mit Waschmaschinenanschluss",
+      "Fußbodenheizung mit Wärmepumpe",
+      "Vinylboden Eiche hell",
+      "Elektrische Rollläden",
+      "Videosprechanlage",
+      "Abstellraum",
+      "Kellerraum",
+      "Carport",
+      "Einbauküche optional (70 €/Monat)"
+    ],
+    "Energieausweis": {
+      "Energieausweistyp": "Bedarfsausweis",
+      "Baujahr": "2025",
+      "Heizungsart": "Wärmepumpe, Fußbodenheizung",
+      "Wesentlicher Energieträger": "Strom",
+      "Endenergiebedarf": "14,9 kWh/(m²·a)",
+      "Energieeffizienzklasse": "A+"
+    }
+  }
+}

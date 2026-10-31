@@ -1,0 +1,55 @@
+{
+  "title": "Erstbezug im 3. Obergeschoss: 3-Zimmer-Wohnung mit Kochinsel und Balkon",
+  "headline": "75391 Gechingen, Etagenwohnung",
+  "sort_key": "20261101",
+  "description": {
+    "Objektbeschreibung": "Moderne 3-Zimmer-Wohnung im 3. Obergeschoss eines Neubaus im Quartier Talaue, mit Aufzug bequem erreichbar.\nAuf 81 m² erwartet Sie ein offener Wohn- und Essbereich mit hochwertiger Einbauküche und Kochinsel, ein großer überdachter Balkon mit Weitblick, ein Schlafzimmer, ein Kinder- oder Arbeitszimmer, ein Tageslichtbad mit bodengleicher Dusche und ein separates Gäste-WC.\nEin Kellerabteil und ein Tiefgaragenstellplatz gehören dazu.",
+    "Ausstattung": "Hochwertige Einbauküche mit Kochinsel, Echtholzparkett in den Zimmern, großformatige Fliesen im Wohn- und Kochbereich, Fußbodenheizung, bodentiefe Fenster, Abstellraum. Die Wohnung ist barrierefrei erreichbar. Geheizt wird über eine zentrale Holzpelletanlage.",
+    "Sonstiges": "Die Nebenkosten sind eine monatliche Vorauszahlung inklusive Heizung und werden jährlich abgerechnet. Der Tiefgaragenstellplatz kostet 50 € im Monat. Haustiere sind nicht gestattet."
+  },
+  "lage": "Das neue Wohnquartier Talaue liegt ruhig am Ortsrand von Gechingen im Landkreis Calw, direkt an einem Naturschutzgebiet mit Spazier-, Rad- und Joggingwegen. Zwischen den Häusern entsteht ein grünes, parkartiges Wohnumfeld.\nBäcker, Lebensmittelgeschäfte und Restaurants im Ortszentrum sind in wenigen Gehminuten erreichbar, ein Kindergarten liegt gegenüber.\nFahrzeiten mit dem Auto (ca.): Calw 15 Minuten, A81 (Anschlussstelle Gärtringen) 15 Minuten, Herrenberg 18 Minuten, Böblingen 22 Minuten, Sindelfingen 23 Minuten, Flughafen und Messe Stuttgart 35 Minuten, Stuttgart Zentrum 40 Minuten.",
+  "specs": {
+    "Objektdaten": {
+      "Objekt ID": "20261101",
+      "Kaltmiete": "1.275 €",
+      "Nebenkosten": "270 €",
+      "Heizkosten": "in Nebenkosten enthalten",
+      "Warmmiete": "1.545 €",
+      "Kaution": "3.825 € (3 Nettokaltmieten)",
+      "Preis/m²": "15,74 €/m²",
+      "Wohnfläche": "81 m²",
+      "Zimmer": "3",
+      "Schlafzimmer": "2",
+      "Badezimmer": "1 + Gäste-WC",
+      "Etage": "3. Obergeschoss",
+      "Baujahr": "2026",
+      "Zustand": "Erstbezug",
+      "Ausstattung": "Gehobene Qualität",
+      "Verfügbar ab": "01.12.2026",
+      "Haustiere": "Nein",
+      "Garage/Stellplatz": "1 Tiefgaragenstellplatz",
+      "Miete Stellplatz": "50 €"
+    },
+    "Ausstattung / Merkmale": [
+      "Großer überdachter Balkon mit Weitblick",
+      "Einbauküche mit Kochinsel",
+      "Tageslichtbad mit bodengleicher Dusche",
+      "Separates Gäste-WC",
+      "Echtholzparkett",
+      "Fußbodenheizung",
+      "Personenaufzug",
+      "Barrierefrei erreichbar",
+      "Abstellraum",
+      "Kellerabteil",
+      "Tiefgaragenstellplatz"
+    ],
+    "Energieausweis": {
+      "Energieausweistyp": "Bedarfsausweis",
+      "Baujahr": "2026",
+      "Heizungsart": "Zentralheizung mit Fußbodenheizung",
+      "Wesentlicher Energieträger": "Holzpellets",
+      "Endenergiebedarf": "59 kWh/(m²·a)",
+      "Energieeffizienzklasse": "B"
+    }
+  }
+}

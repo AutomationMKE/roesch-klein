@@ -1,0 +1,54 @@
+{
+  "title": "Neubau-Erstbezug: 2-Zimmer-Wohnung mit Terrasse und Garten",
+  "headline": "75391 Gechingen, Erdgeschosswohnung",
+  "sort_key": "20261103",
+  "description": {
+    "Objektbeschreibung": "Helle 2-Zimmer-Erdgeschosswohnung in einem Neubau im Quartier Talaue, ideal für Singles oder Paare.\nDer Wohn- und Essbereich mit neuer Einbauküche öffnet sich zur sonnigen Terrasse mit Gartenanteil (ca. 37 m²). Auch das Schlafzimmer hat einen Zugang zur Terrasse. Das Bad hat eine bodengleiche Dusche und einen beleuchteten Spiegelschrank.\nEin Tiefgaragenstellplatz und ein Kellerabteil gehören dazu.",
+    "Ausstattung": "Moderne Einbauküche, hochwertiger Fliesenboden, einzelraumgesteuerte Fußbodenheizung, Handtuchheizkörper, Holz-Alu-Fenster, elektrische Rollläden, Videogegensprechanlage mit Farbmonitor. Wohnanlage mit Aufzug und Tiefgarage, ökologische Bauweise (Effizienzhaus 55 EE).",
+    "Sonstiges": "Die Nebenkosten sind eine monatliche Vorauszahlung inklusive Heizung und werden jährlich abgerechnet. Der Tiefgaragenstellplatz kostet 50 € im Monat. Haustiere nach Absprache."
+  },
+  "lage": "Das neue Wohnquartier Talaue liegt ruhig am Ortsrand von Gechingen im Landkreis Calw, direkt an einem Naturschutzgebiet mit Spazier-, Rad- und Joggingwegen. Zwischen den Häusern entsteht ein grünes, parkartiges Wohnumfeld.\nBäcker, Lebensmittelgeschäfte und Restaurants im Ortszentrum sind in wenigen Gehminuten erreichbar, ein Kindergarten liegt gegenüber.\nFahrzeiten mit dem Auto (ca.): Calw 15 Minuten, A81 (Anschlussstelle Gärtringen) 15 Minuten, Herrenberg 18 Minuten, Böblingen 22 Minuten, Sindelfingen 23 Minuten, Flughafen und Messe Stuttgart 35 Minuten, Stuttgart Zentrum 40 Minuten.",
+  "specs": {
+    "Objektdaten": {
+      "Objekt ID": "20261103",
+      "Kaltmiete": "770 €",
+      "Nebenkosten": "240 €",
+      "Heizkosten": "in Nebenkosten enthalten",
+      "Warmmiete": "1.010 €",
+      "Kaution": "Nach Vereinbarung",
+      "Preis/m²": "20,46 €/m²",
+      "Wohnfläche": "37,64 m²",
+      "Zimmer": "2",
+      "Schlafzimmer": "1",
+      "Badezimmer": "1",
+      "Etage": "Erdgeschoss",
+      "Baujahr": "2026",
+      "Zustand": "Erstbezug",
+      "Ausstattung": "Gehobene Qualität",
+      "Verfügbar ab": "Nach Vereinbarung",
+      "Haustiere": "Nach Vereinbarung",
+      "Garage/Stellplatz": "1 Tiefgaragenstellplatz",
+      "Miete Stellplatz": "50 €"
+    },
+    "Ausstattung / Merkmale": [
+      "Terrasse mit Gartenanteil (ca. 37 m²)",
+      "Einbauküche",
+      "Bad mit bodengleicher Dusche",
+      "Einzelraumgesteuerte Fußbodenheizung",
+      "Holz-Alu-Fenster",
+      "Elektrische Rollläden",
+      "Videogegensprechanlage",
+      "Personenaufzug",
+      "Kellerabteil",
+      "Tiefgaragenstellplatz"
+    ],
+    "Energieausweis": {
+      "Energieausweistyp": "Bedarfsausweis",
+      "Baujahr": "2026",
+      "Heizungsart": "Zentralheizung mit Fußbodenheizung",
+      "Wesentlicher Energieträger": "Holzpellets",
+      "Endenergiebedarf": "64 kWh/(m²·a)",
+      "Energieeffizienzklasse": "B"
+    }
+  }
+}

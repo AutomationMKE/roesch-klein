@@ -10,3 +10,6 @@ Thumbs.db
 
 # Anything you keep locally but don't want on GitHub
 _local/
+
+# Local source data for the Calw/Gechingen listings (not published)
+Neubauprojekte_Calw_Gechingen/
