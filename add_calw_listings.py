@@ -16,9 +16,9 @@ Source photos and floor plans (local only, not in git):
 Photos are resized to max. 1600 px and saved as JPEG. PDF floor plans are
 rendered to JPEG (needs pymupdf). Floor plans are always the last image.
 
-Rents: cold rent per m² is at least 15,50 €/m² for every listing, the
-simple average of the five €/m² values is 16,00 €/m²
-(15,50 + 15,50 + 17,75 + 15,50 + 15,74) / 5.
+Rents: cold rent per m² is at least 15,50 €/m² for every listing.
+Calw-Stammheim (20261102) is set to 16,20 €/m² (92,50 m² x 16,20 =
+1.498,50 €, rounded to 1.499 €).
 """
 
 from __future__ import annotations
@@ -398,12 +398,12 @@ LISTINGS = [
             "specs": {
                 "Objektdaten": {
                     "Objekt ID": "20261102",
-                    "Kaltmiete": "1.434 €",
+                    "Kaltmiete": "1.499 €",
                     "Nebenkosten": "200 €",
                     "Heizkosten": "in Nebenkosten enthalten",
-                    "Warmmiete": "1.634 €",
-                    "Kaution": "4.302 € (3 Nettokaltmieten)",
-                    "Preis/m²": "15,50 €/m²",
+                    "Warmmiete": "1.699 €",
+                    "Kaution": "4.497 € (3 Nettokaltmieten)",
+                    "Preis/m²": "16,20 €/m²",
                     "Wohnfläche": "92,50 m²",
                     "Zimmer": "3",
                     "Schlafzimmer": "2",
