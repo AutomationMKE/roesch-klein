@@ -218,14 +218,14 @@ BASE_HEAD = """<!DOCTYPE html>
 <title>{title}</title>
 <meta name="description" content="{description}">
 <link rel="stylesheet" href="{assets_prefix}assets/style.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230f2e4b'/%3E%3Ctext x='50' y='65' font-size='60' font-family='Georgia,serif' text-anchor='middle' fill='%23fff'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%23fff'/%3E%3Ctext x='27' y='71' font-size='58' font-family='Georgia,serif' text-anchor='middle' fill='%230f2e4b'%3ER%3C/text%3E%3Crect x='49' y='20' width='3' height='60' fill='%23b8935a'/%3E%3Ctext x='75' y='71' font-size='58' font-family='Georgia,serif' text-anchor='middle' fill='%230f2e4b'%3EK%3C/text%3E%3C/svg%3E">
 </head>
 <body>
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="{home_href}">
-      <span class="brand-mark">R&amp;K</span>
-      <span class="brand-name">{brand}</span>
+      <span class="brand-mark" aria-hidden="true">R<span class="brand-rule"></span>K</span>
+      <span class="brand-name"><span class="brand-title">Roesch &amp; Klein</span><span class="brand-sub">Immobilien</span></span>
     </a>
     <nav class="site-nav">
       <a href="{home_href}">Immobilien</a>
@@ -240,7 +240,7 @@ BASE_FOOT = """</main>
 <footer class="site-footer" id="kontakt">
   <div class="container footer-grid">
     <div>
-      <div class="footer-brand">{brand}</div>
+      <div class="footer-brand"><span class="brand-mark" aria-hidden="true">R<span class="brand-rule"></span>K</span><span>{brand}</span></div>
       <div class="footer-sub">Ihr Immobilienmakler — persönlich, transparent, zuverlässig.</div>
     </div>
     <div>
